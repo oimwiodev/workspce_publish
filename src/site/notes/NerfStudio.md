@@ -25,7 +25,7 @@ docker run --gpus all `
     -u root `
     -v "C:\nerf_projects:/workspace/" `
     -v "C:\.cache:/home/user/.cache/" `
-    -p 7008:7007 `  # <--- CHANGED THIS PORT
+    -p 7007:7007 `
     --rm `
     -it `
     --shm-size=12gb `
@@ -37,26 +37,14 @@ docker run --gpus all `
 > Our script uses C:\nerf_projects\ which is the SYSTEM PATH TO AVOID COMPATIBILITY ISSUES INVOLVING THE WINDOWS USERNAME
 
 # Update repository and install dependencies
-```
-apt update
-```
 
-```
-apt install -y git
-```
-
-```
-python3 -m pip install git+https://github.com/kerrj/lerf
-```
-
-###### Combined command:
 ```
 apt update
 apt install -y git
 python3 -m pip install git+https://github.com/kerrj/lerf
 ```
 
-ns-train nerfacto --data 
+ns-train nerfacto --data /workspace/camera_pose/
 # Run colmap analysis
 ```
 
