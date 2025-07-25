@@ -54,5 +54,5 @@ python3 -m pip install git+https://github.com/kerrj/lerf
 
 # Run colmap analysis
 ```
-
+command
 ```
