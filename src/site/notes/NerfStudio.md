@@ -17,19 +17,24 @@ Have feedback? We’d love for you to fill out our [Nerfstudio Feedback Form](ht
 We hope nerfstudio enables you to build faster 🔨 learn together 📚 and contribute to our NeRF community 💖.
 # Start Interactive container
 
-> [!WARNING] MAKE SURE TO UPDATE USER TO YOUR WINDOWS USERNAME
+> [!IMPORTANT] Important
+> C:\nerf_projects\ to /workspace/
 
 ```
 docker run --gpus all `
     -u root `
-    -v "C:\Users\USER\nerf_projects:/workspace/" `
-    -v "C:\Users\USER\.cache:/home/user/.cache/" `
+    -v "C:\nerf_projects:/workspace/" `
+    -v "C:\.cache:/home/user/.cache/" `
     -p 7008:7007 `  # <--- CHANGED THIS PORT
     --rm `
     -it `
     --shm-size=12gb `
     ghcr.io/nerfstudio-project/nerfstudio:latest
 ```
+
+
+> [!WARNING] WARNING
+> Our script uses C:\nerf_projects\ which is the SYSTEM PATH TO AVOID COMPATIBILITY ISSUES INVOLVING THE WINDOWS USERNAME
 
 # Update repository and install dependencies
 ```
@@ -51,7 +56,7 @@ apt install -y git
 python3 -m pip install git+https://github.com/kerrj/lerf
 ```
 
-
+ns-train nerfacto --data 
 # Run colmap analysis
 ```
 
