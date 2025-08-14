@@ -2,6 +2,11 @@
 {"dg-publish":true,"permalink":"/pc-building-inqueries/pc-gaming-config-less-than-500/"}
 ---
 
+
+> [!IMPORTANT] Video Test 
+> [Fortnite 120fps+ Medium](https://youtu.be/EA_FzRvJt4E?t=240)
+
+
 | Composant                 | Spécifications Approximatives et Recommandations                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **CPU (Processeur)**      | AMD Ryzen 3 5600G ou Intel Core i3-12100:  <br>- ~4 Cores / 8 Threads  <br>- Fréquence boostée autour de 4.2 GHz+  <br>  <br>Justification : Équilibre excellent pour le jeu, offre une performance suffisante à un prix très compétitif. Les processeurs AMD Ryzen 3 (surtout 5600G) sont souvent légèrement mieux cotés en performances gaming, mais les Intel i3-12100 offrent aussi de très bonnes performances et peuvent être plus abordables selon les promotions.          |
@@ -12,4 +17,10 @@
 | **Carte mère**            | AMD B450/B450 ou Intel H61/HB2/ etc.  <br>Chipset: AMD B450 (ou B550 si budget très serré) / Intel H61, HB2, B360  <br>  <br>Justification : Recherchez les modèles avec au moins 1x PCIe 4.0 slot uniquement si vous prévoyez de mettre à niveau votre GPU plus tard; sinon, un socket standard DDR4 est largement compatible et offre une flexibilité pour les futures mises à niveau ou l'installation d'une future carte graphique jusqu'à ~75W TDP (comme une RTX 3060/4060). |
 | **Total Estimatif**       | ~$189.99 + $229.99 + $25 + $10 = $434 USD  <br>_(Prix exemples, varient fortement)_  <br>  <br>Justification : Ce total couvre les composants majeurs sans inclure éventuellement un moniteur ou une souris/clavier qui sont à ajouter séparément. Il représente l'objectif de budget pour le reste des composants (périphériques, boîtier, etc.).                                                                                                                                 |
 | **Total Estimé**          | ~$450 - $500 USD                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-Cette configuration devrait offrir une expérience de jeu fluide et agréable dans la plupart des jeux vidéo récents à **1080p** avec des paramètres élevés, tout en respectant scrupuleusement ton budget. N'oublie pas de vérifier les prix, surtout si tu optes pour le neuf ou l'occasion, car ils fluctuent ! Bonne chance et joyeux jeux !
+
+
+> [!DANGER] Explication
+> Cette config devrait offrir une expérience de jeu fluide et agréable dans la plupart des jeux vidéo récents à **1080p** avec des paramètres élevés, tout en respectant scrupuleusement ton budget. N'oublie pas de vérifier les prix, surtout si tu optes pour le neuf ou l'occasion, car ils fluctuent ! Bonne chance et joyeux jeux !
+
+[^1]: video test
+	
